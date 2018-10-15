@@ -159,7 +159,7 @@ facet_grid(Genre~.)
 ```
 
  #### Result
-  ![Histogram with facets](https://github.com/kawal2266/R-for-beginners/blob/master/Plotted%20Graphs/budget_genre.png)
+  ![Histogram with facets](https://github.com/kawal2266/R-for-beginners/blob/master/Plotted%20Graphs/buget_genre.png)
 
   #### Conclusion
   > Action Genre plot has the longest tail implying that the high budget movies are made in Action.

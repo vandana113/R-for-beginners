@@ -215,7 +215,7 @@ facet_grid(Genre~.)
 
  ### 8. Audience v/s CriticRating (for Genre and year)
 
-    ```R
+  ```R
     k <- ggplot(data=movies,aes(x=CriticRatings,y=AudienceRatings,color=Genre))
 
     k + geom_point(aes(size=BudgetMillion),alpha=0.75) + ggtitle("Audience v/s Critic") +
@@ -228,8 +228,8 @@ facet_grid(Genre~.)
      plot.title = element_text(size=20,color="DarkGreen"),
      plot.background = element_rect(fill="LightCyan",color="Maroon")
     )
-
-    ```
+    
+ ```
   #### Result
   ![Audience v/s Critic rating](https://github.com/kawal2266/R-for-beginners/blob/master/Plotted%20Graphs/aud_critic_year_gen.png)
 
